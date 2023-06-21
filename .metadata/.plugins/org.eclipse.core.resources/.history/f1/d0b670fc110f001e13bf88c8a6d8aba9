@@ -1,0 +1,12 @@
+package dto;
+import javax.persistence.*;
+
+@Entity
+public class EntityClass {
+	@Id
+	private int std_id;
+	private String std_name;
+	
+	private Long std_phno;
+
+}
